@@ -1,0 +1,7 @@
+.summaryBox{
+    max-width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    padding: 10px;
+    overflow: hidden;
+}
