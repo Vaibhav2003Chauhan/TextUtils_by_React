@@ -8,7 +8,7 @@ import React from 'react';
 function App() {
   return (
     <>
-      <Navbar title="Text Utils" />
+      <Navbar title="TEXT UTILS" />
       <div className='container my-3'>
         <Textform heading="Enter your Text to Analyze" />
       </div>

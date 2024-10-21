@@ -9,7 +9,7 @@ export default function Textinfo(props) {
   return (
     <>
     <p>{charNum} Character and {numofWords - 1} Words</p>
-    <p>{0.08 * (textInfo.split("").length)} Minute Read</p>
+    <p>{parseFloat(0.006 * (textInfo.split("").length)).toFixed(2)} Minute Read</p>
     </>
   )
 }
